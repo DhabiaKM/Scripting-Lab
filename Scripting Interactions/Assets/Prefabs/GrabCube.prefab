@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4735928481519006751}
   - component: {fileID: 4735928481519006757}
   - component: {fileID: 4735928481519006756}
+  - component: {fileID: 7703782346656516213}
   m_Layer: 0
   m_Name: GrabCube
   m_TagString: GrabCube
@@ -296,7 +297,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeoutDuration: 5
-  spawn: {fileID: 0}
+  spawn: {fileID: 4735928481519006754}
+--- !u!114 &7703782346656516213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4735928481519006748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50386d0a8ebc79248b9d1e438c5d086b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifetime: 3
 --- !u!1 &4735928481897413981
 GameObject:
   m_ObjectHideFlags: 0
